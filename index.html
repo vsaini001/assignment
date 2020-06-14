@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>turbo care assignment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+</head>
+<body>
+ 
+   <div id="sidebar">
+      <div class="toggle-btn" onclick="togglesidebar()">
+          <span></span>
+          <span></span>
+          <span></span>
+      </div>
+       <ul>
+          
+           <li><i class="fa fa-search" aria-hidden="true"></i></li>
+           <li><i class="fa fa-home" aria-hidden="true"></i></li>
+           <li><i class="fa fa-area-chart" aria-hidden="true"></i></li>
+           <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+           <li><i class="fa fa-users" aria-hidden="true"></i></li>
+       </ul>
+   </div>
+   <div class="img">
+       <img src="images/logo.png" alt="" width="350px">
+       <h3>RENNE MCKELVEY <br>   Account Settings </h3>
+       <h1><i class="fa fa-user-circle-o" aria-hidden="true"></i></h1>
+      
+   </div>
+   <div class="nav">
+       <div class="nav1">
+           <label for="">User list</label>
+           <br>
+           <input type="text" placeholder="..search">
+       </div>
+       <div class="nav2">
+        <table>
+            <tr>
+                <th>NAME</th>
+                <th>Role</th>
+                <th>Action</th>
+            </tr>
+            <tr>
+                <td>Ada Lovelace</td>
+                <td>Admin</td>
+                <td>pen</td>
+            </tr>
+            <tr>
+                <td>Grace Happer</td>
+                <td>Developer</td>
+                <td>pen</td>
+            </tr>
+            <tr>
+                <td>Margeeral Hamilton</td>
+                <td>qa</td>
+                <td>pen</td>
+            </tr>
+            <tr>
+                <td>Joan Clarke</td>
+                <td>Manager</td>
+                <td>pen</td>
+            </tr>
+        </table>
+       </div>
+       <div class="nav3">
+       <h2 >New User Details</h2>
+          <h3 >Profile picture</h3>
+           
+       </div>
+       <div class="nav4">
+           <form action="">
+               <input type="text" placeholder="Username">
+               <input type="text" placeholder="Email">
+               <br>
+               <input type="text" placeholder="First Name">
+               <input type="text" placeholder="Last Name">
+               <br>
+               <select name="role" id="" placeholder="role">
+                   <option value="admin">admin</option>
+                   <option value="developer">developer</option>
+                   <option value="QA">QA</option>
+               </select>
+            
+           </form>
+           <div class="checkbox">
+               <input type="checkbox" >Send email confirmation
+           </div>
+       </div>
+       <div class="view-image">
+           this image will be shown here
+            <div class="container">
+               <form action="post" enctype="multipart/form-data" action="upload_file.png">
+                   <input type="file" name="image" id="image" />
+               </form>
+           </div>
+          
+       </div>
+     
+    </div>
+    
+   
+  
+   
+   
+   
+  
+  
+   <script src="javascript/turbo.js"> </script>
+   
+</body>
+</html>

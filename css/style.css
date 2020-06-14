@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif
+}
+#sidebar{
+    position:fixed;
+    width: 60px;
+    height: 250%;
+    background:lightgrey;
+    top: -730px;
+    transition: all 500ms linear;
+    
+}
+#sidebar.active{
+    top: 0px;
+}
+#sidebar ul li{
+    margin-top: 40px;
+    color: black;
+    list-style: none;
+    padding: 9px 20px;
+    border-bottom: 1px solid rgba(100,100,100,0.3);
+}
+#sidebar .toggle-btn{
+    position: fixed;
+    left: 10px;
+    bottom:657px;
+    
+    
+}
+#sidebar .toggle-btn span{
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #151719;
+    margin: 3px 0px;
+}
+.img{
+    margin-left: 60px;
+    border:black solid 1px;
+}
+h3{
+    text-align: right;
+    margin-top: -30px;
+    margin-right:60px;
+    padding-bottom: 20px;
+   
+}
+h1{
+    text-align:right;
+    margin-top: -58px;
+    margin-right: 15px;
+    
+}
+.nav{
+    margin-left: 70px;
+    
+}
+.nav1{
+    margin-top: 30px;
+    
+}
+.nav1 input{
+    border-radius: 20px;
+}
+.nav2{
+    margin-top: 20px
+}
+.nav2  tr,th,td{
+    border: solid 1px black;
+    padding:4px;
+
+}
+.nav2 table {
+    width:1290px;
+}
+.nav3{
+    margin-top: 50px;
+    text-decoration: underline
+}
+.nav3 h3{
+    text-align: right;
+    
+}
+.nav4 input {
+    padding: 4px
+
+}
+input{
+    margin: 7px;
+    width: 300px;
+}
+.nav4 select{
+    margin: 7px;
+    width: 300px;
+    padding: 4px;
+}
+.checkbox input{
+    margin-left: 10px;
+    
+}
+.checkbox input{
+    width: 12px;
+}
+.container{
+    width: 20%;
+    padding: 2%;
+    box-shadow: 20px,20px,20px rgb(0,0,0,0.2);
+    
+}
+#image{
+    width: 96%;
+    padding: 2%;
+    border: 1px dashed green;
+}
+.view-image{
+    border: 2px solid black;
+    height:170px;
+    width:230px;
+}
+
+
